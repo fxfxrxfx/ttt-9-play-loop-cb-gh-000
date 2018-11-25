@@ -40,5 +40,6 @@ def play(board)
   iter = 0
   while iter < 9 do
     turn(board)
+    iter.next
   end
 end
